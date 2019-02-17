@@ -8,8 +8,6 @@ package workhome;
  * @see ArtAlbums
  * @see BooksFinal - main
  *
- * Superclass
- *
  */
 
 

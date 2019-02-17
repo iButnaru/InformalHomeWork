@@ -8,6 +8,9 @@ import java.util.Scanner;
  * @author Ionut Butnaru
  * {@C:\Users\Ionut\IdeaProjects\HelloWorld\src}
  * @version 1.0
+ * @see Books
+ * @see Novels
+ * @see ArtAlbums
  * * Novels and ArtAlbums are inherited from the super class Books
  * Using Scanner it gives directions in which to continue
  * Option 1 - has 3 more options - to add an object of type Books/Novels/ArtAlbums to a specific list for each one.
@@ -15,10 +18,7 @@ import java.util.Scanner;
  * Option 2 - has 3 more options - shows the list of the object of type Books/Novels/ArtAlbums.
  * Deletes the name of the inserted book and it prints the new list.
  * Option 3 - It prints all the existing objects of type Books, Novels and ArtAlbums.
- *
- * Uses ArrayList
- * Uses Iterator
- * Uses Scanner
+ * Uses ArrayList, Iterator, Scanner
  * *
  */
 public class BooksFinal {
@@ -63,13 +63,10 @@ public class BooksFinal {
         String novelDelete;
         String artDelete;
 
-
-
         System.out.println("In order to continue... \nPress 1 to add an item \nPress 2 to delete an item \nPress 3 just to see all items");
         direction = sc.nextLine();
 
         switch (direction){
-
             case "1":
                 System.out.println("Press 1 to add a book \nPress 2 to add a novel \nPress 3 to add and art album");
                 items = sc.nextInt();

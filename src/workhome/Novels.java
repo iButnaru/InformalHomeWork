@@ -8,14 +8,12 @@ package workhome;
  * @see ArtAlbums
  * @see BooksFinal
  */
-
 public class Novels extends Books {
 
     private String type;
     public Novels(){
 
     }
-
     /**
      * This constructs a novel with specified name, number of pages and type.
      * @param book The name of this novel.
@@ -26,7 +24,6 @@ public class Novels extends Books {
         super(book, page);
         this.type = type;//super(page);
     }
-
     /**
      * Gets the name of this novel.
      * @return novel's name.
@@ -34,7 +31,6 @@ public class Novels extends Books {
     public String getNovel(){
         return super.getBook();
     }
-
     /**
      * Gets the type of this novel.
      * @return novel's type.
@@ -50,7 +46,6 @@ public class Novels extends Books {
     public void setType(String type){
         this.type = type;
     }
-
     /**
      * toString method
      * @return representation of this novel.
