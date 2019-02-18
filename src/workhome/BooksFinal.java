@@ -1,5 +1,6 @@
 package workhome;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -23,6 +24,10 @@ import java.util.Scanner;
  */
 public class BooksFinal {
 
+    private static ArrayList<Books> catalogue1 = new ArrayList<>();
+    private static ArrayList<Books> catalogue2 = new ArrayList<>();
+    private static ArrayList<Books> catalogue3 = new ArrayList<>();
+
     public static void main(String[] args) {
 //Creates new objects of type - Books, Novels, ArtAlbums
         Books book1 = new Books("Peterson", 345);
@@ -37,13 +42,13 @@ public class BooksFinal {
 
         //Creates a list, adds objects in it and prints message with the size of the list
 
-        ArrayList<Books> catalogue1 = new ArrayList<>();
+
         catalogue1.add(book1);
         catalogue1.add(book2);
-        ArrayList<Books> catalogue2 = new ArrayList<>();
+
         catalogue2.add(novel1);
         catalogue2.add(novel2);
-        ArrayList<Books> catalogue3 = new ArrayList<>();
+
         catalogue3.add(album1);
         catalogue3.add(album2);
 
@@ -63,144 +68,203 @@ public class BooksFinal {
         String novelDelete;
         String artDelete;
 
-        System.out.println("In order to continue... \nPress 1 to add an item \nPress 2 to delete an item \nPress 3 just to see all items");
-        direction = sc.nextLine();
+        do {
+            System.out.println("In order to continue... \nPress 1 to add an item \nPress 2 to delete an item \nPress 3 to load items from file. \nPress 4 to see all items \nPress 5 to exit the program. ");
 
-        switch (direction){
-            case "1":
-                System.out.println("Press 1 to add a book \nPress 2 to add a novel \nPress 3 to add and art album");
-                items = sc.nextInt();
-                Scanner sc1 = new Scanner(System.in);
-                Scanner sct = new Scanner(System.in);
-                Scanner scq = new Scanner(System.in);
-                switch (items){
-                    case 1:
-                        System.out.println("Please enter the name of the book: ");
-                        bookInput = sc1.nextLine();
-                        System.out.println("Please enter the number of pages: ");
-                        noPages = sc.nextInt();
-                        Books enteredBook = new Books(bookInput, noPages);
-                        catalogue1.add(enteredBook);
-                        System.out.println("Please see below the new list:");
-                        for (Books bk : catalogue1){
-                            System.out.println(bk);
+            direction = sc.nextLine();
+            switch (direction) {
+                case "1":
+                    System.out.println("Press 1 to add a book \nPress 2 to add a novel \nPress 3 to add and art album");
+                    items = sc.nextInt();
+                    Scanner sc1 = new Scanner(System.in);
+                    Scanner sct = new Scanner(System.in);
+                    Scanner scq = new Scanner(System.in);
+                    switch (items) {
+                        case 1:
+                            System.out.println("Please enter the name of the book: ");
+                            bookInput = sc1.nextLine();
+                            System.out.println("Please enter the number of pages: ");
+                            noPages = sc.nextInt();
+                            Books enteredBook = new Books(bookInput, noPages);
+                            catalogue1.add(enteredBook);
+                            System.out.println("Please see below the new list:");
+                            for (Books bk : catalogue1) {
+                                System.out.println(bk);
+                            }
                             break;
-                        }
-                    case 2:
-                        System.out.println("Please enter the name of the novel: ");
-                        novelInput = sc1.nextLine();
-                        System.out.println("Please enter the number of pages: ");
-                        novelPages = sc.nextInt();
-                        System.out.println("Please enter the type of the novel: ");
-                        novelType = sct.nextLine();
-                        Books enteredNovel = new Novels(novelInput, novelPages, novelType);
-                        catalogue2.add(enteredNovel);
-                        System.out.println("Please see below the new list: ");
-                        for (Books nov : catalogue2){
-                            System.out.println(nov);
+                        case 2:
+                            System.out.println("Please enter the name of the novel: ");
+                            novelInput = sc1.nextLine();
+                            System.out.println("Please enter the number of pages: ");
+                            novelPages = sc.nextInt();
+                            System.out.println("Please enter the type of the novel: ");
+                            novelType = sct.nextLine();
+                            Books enteredNovel = new Novels(novelInput, novelPages, novelType);
+                            catalogue2.add(enteredNovel);
+                            System.out.println("Please see below the new list: ");
+                            for (Books nov : catalogue2) {
+                                System.out.println(nov);
+                            }
+                            break;
+                        case 3:
+                            System.out.println("Please enter the name of the art album: ");
+                            artInput = sc1.nextLine();
+                            System.out.println("Please enter the number of pages: ");
+                            artPages = sc.nextInt();
+                            System.out.println("Please enter the paper quality: ");
+                            paperQuality = scq.nextLine();
+                            Books enteredArtAlbum = new ArtAlbums(artInput, artPages, paperQuality);
+                            catalogue3.add(enteredArtAlbum);
+                            System.out.println("Please see below the new list: ");
+                            for (Books art : catalogue3) {
+                                System.out.println(art);
+                            }
+                            break;
+                    }
+                    break;
+                case "2":
+                    System.out.println("Please select from the following options... ");
+                    System.out.println("Enter 1 to delete a book. \nEnter 2 to delete a novel. \nEnter 3 to delete an art album.");
+                    deleteOption = sc.nextInt();
+                    Iterator<Books> it1 = catalogue1.iterator();
+                    Iterator<Books> it2 = catalogue2.iterator();
+                    Iterator<Books> it3 = catalogue3.iterator();
 
-                        }
-                        break;
-                    case 3:
-                        System.out.println("Please enter the name of the art album: ");
-                        artInput = sc1.nextLine();
-                        System.out.println("Please enter the number of pages: ");
-                        artPages = sc.nextInt();
-                        System.out.println("Please enter the paper quality: ");
-                        paperQuality = scq.nextLine();
-                        Books enteredArtAlbum = new ArtAlbums(artInput, artPages, paperQuality);
-                        catalogue3.add(enteredArtAlbum);
-                        System.out.println("Please see below the new list: ");
-                        for (Books art : catalogue3){
-                            System.out.println(art);
-                        }
+                    Scanner sc2 = new Scanner(System.in);
+                    Scanner sc3 = new Scanner(System.in);
+                    Scanner sc4 = new Scanner(System.in);
+
+                    switch (deleteOption) {
+
+                        case 1:
+
+                            System.out.println("Please see below the list:");
+                            for (Books bk : catalogue1) {
+                                System.out.println(bk);
+                            }
+
+
+                            while (it1.hasNext()) {
+                                System.out.println("Please write the name of the book you want to delete: ");
+                                bookDelete = sc2.nextLine();
+                                Books book = it1.next();
+                                if (book instanceof Books) {
+                                    if (book.getBook().equals(bookDelete)) {
+                                        it1.remove();
+                                    }
+                                }
+                            }
+                            System.out.println("The remaining books are: ");
+                            for (Books bk : catalogue1) {
+                                System.out.println(bk);
+                            }
+                            break;
+                        case 2:
+                            System.out.println("Please see below the list:");
+                            for (Books nov : catalogue2) {
+                                System.out.println(nov);
+                            }
+                            System.out.println("Please write the name of the novel you want to delete: ");
+                            novelDelete = sc3.nextLine();
+                            while (it2.hasNext()) {
+                                Books novel = it2.next();
+                                if (novel instanceof Novels) {
+                                    if (novel.getBook().equals(novelDelete)) {
+                                        it2.remove();
+                                    }
+                                }
+                            }
+                            System.out.println("The remaining novels are: ");
+                            for (Books nov : catalogue2) {
+                                System.out.println(nov);
+                            }
+                            break;
+
+                        case 3:
+                            System.out.println("Please see below the list:");
+                            for (Books art : catalogue3) {
+                                System.out.println(art);
+                            }
+                            System.out.println("Please write the name of the art album you want to delete: ");
+                            artDelete = sc4.nextLine();
+                            while (it3.hasNext()) {
+                                Books art = it3.next();
+                                if (art instanceof ArtAlbums) {
+                                    if (art.getBook().equals(artDelete)) {
+                                        it3.remove();
+                                    }
+                                }
+                            }
+                            System.out.println("The remaining art albums are: ");
+                            for (Books art : catalogue3) {
+                                System.out.println(art);
+                            }
+                            break;
+                    }
+
+                case "3":
+                    loadBook();
+                    break;
+                case "4":
+                    listBooks();
+                    break;
+
+            }
+
+        } while (!direction.equals("5"));
+    }
+
+    /**
+     * Using scanner reads from file and creates new objects of type Books, Novels and ArtAlbums
+     */
+    private static void loadBook() {
+        Scanner sc5;
+        File file = new File("src/workhome/myfile.txt");
+        try {
+            sc5 = new Scanner(file);
+            while (sc5.hasNextLine()) {
+                String tstring = sc5.nextLine();
+                String[] astring = tstring.split("#");
+                Books b = new Books();
+                Novels n = new Novels();
+                ArtAlbums a = new ArtAlbums();
+                if (astring[0].equals("BOOK")) {
+                    b.setBook(astring[1]);
+                    b.setPage(Integer.parseInt(astring[2]));
+                    catalogue1.add(b);
+                } else if (astring[0].equals("NOVEL")) {
+                    n.setBook(astring[1]);
+                    n.setPage(Integer.parseInt(astring[2]));
+                    n.setType(astring[3]);
+                    catalogue2.add(n);
+                } else if (astring[0].equals("ARTALBUMS")) {
+                    a.setBook(astring[1]);
+                    a.setPage(Integer.parseInt(astring[2]));
+                    a.setPaperQuality(astring[3]);
+                    catalogue3.add(a);
                 }
-                break;
+            }
+            sc5.close();
 
-            case "2":
-                System.out.println("Please select from the following options... ");
-                System.out.println("Enter 1 to delete a book. \nEnter 2 to delete a novel. \nEnter 3 to delete an art album.");
-                deleteOption = sc.nextInt();
-                Iterator<Books> it1 = catalogue1.iterator();
-                Iterator<Books> it2 = catalogue2.iterator();
-                Iterator<Books> it3 = catalogue3.iterator();
-
-                Scanner sc2 = new Scanner(System.in);
-                Scanner sc3 = new Scanner(System.in);
-                Scanner sc4 = new Scanner(System.in);
-                switch (deleteOption){
-
-                    case 1:
-
-                        System.out.println("Please see below the list:");
-                        for (Books bk : catalogue1){
-                            System.out.println(bk); }
-                        System.out.println("Please write the name of the book you want to delete: ");
-                        bookDelete = sc2.nextLine();
-
-                        while (it1.hasNext()){
-                            Books book = it1.next();
-                            if (book instanceof Books){
-                                if (((Books) book).getBook().equals(bookDelete) ){
-                                    it1.remove();
-                                }
-                            }
-                        }
-                        System.out.println("The remaining books are: ");
-                        for (Books bk : catalogue1){
-                            System.out.println(bk); }
-                        break;
-                    case 2:
-                        System.out.println("Please see below the list:");
-                        for (Books nov : catalogue2){
-                            System.out.println(nov); }
-                        System.out.println("Please write the name of the novel you want to delete: ");
-                        novelDelete = sc3.nextLine();
-                        while(it2.hasNext()){
-                            Books novel = it2.next();
-                            if(novel instanceof Novels){
-                                if (((Novels) novel).getBook().equals(novelDelete)){
-                                    it2.remove();
-                                }
-                            }
-                        }
-                        System.out.println("The remaining novels are: ");
-                        for (Books nov : catalogue2){
-                            System.out.println(nov); }
-                        break;
-
-                    case 3:
-                        System.out.println("Please see below the list:");
-                        for (Books art : catalogue3){
-                            System.out.println(art); }
-                        System.out.println("Please write the name of the art album you want to delete: ");
-                        artDelete = sc4.nextLine();
-                        while (it3.hasNext()){
-                            Books art = it3.next();
-                            if(art instanceof ArtAlbums){
-                                if (((ArtAlbums) art).getBook().equals(artDelete)){
-                                    it3.remove();
-                                }
-                            }
-                        }
-                        System.out.println("The remaining art albums are: ");
-                        for (Books art : catalogue3){
-                            System.out.println(art); }
-                        break;
-                }
-                break;
-
-            case "3":
-                System.out.println("BOOKS: ");
-                for (Books bk : catalogue1){
-                    System.out.println(bk); }
-                System.out.println("NOVELS: ");
-                for (Books nov : catalogue2){
-                    System.out.println(nov); }
-                System.out.println("ART ALBUMS: ");
-                for (Books art : catalogue3){
-                    System.out.println(art); }
-                break;
+        } catch (Exception e) {
+            System.out.println(e);
         }
     }
+
+    /**
+     * Prints all the books from the catalogues.
+     */
+    private static void listBooks() {
+        for (Books b : catalogue1) {
+            System.out.println(b);
+        }
+        for (Books n : catalogue2) {
+            System.out.println(n);
+        }
+        for (Books a : catalogue3) {
+            System.out.println(a);
+        }
+    }
+
+
 }

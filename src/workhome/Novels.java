@@ -11,46 +11,56 @@ package workhome;
 public class Novels extends Books {
 
     private String type;
-    public Novels(){
+
+    public Novels() {
 
     }
+
     /**
      * This constructs a novel with specified name, number of pages and type.
+     *
      * @param book The name of this novel.
      * @param page The number of pages of this novel.
      * @param type The type of this novel.
      */
-    public Novels( String book, int page,  String type){
+    public Novels(String book, int page, String type) {
         super(book, page);
         this.type = type;//super(page);
     }
+
     /**
      * Gets the name of this novel.
+     *
      * @return novel's name.
      */
-    public String getNovel(){
+    public String getNovel() {
         return super.getBook();
     }
+
     /**
      * Gets the type of this novel.
+     *
      * @return novel's type.
      */
-    public String getType(){
+    public String getType() {
         return type;
     }
 
     /**
      * Sets the type of this novel.
+     *
      * @param type the type of this novel.
      */
-    public void setType(String type){
+    public void setType(String type) {
         this.type = type;
     }
+
     /**
      * toString method
+     *
      * @return representation of this novel.
      */
-    public String toString(){
-        return  super.toString() + " TYPE: " + getType();
+    public String toString() {
+        return super.toString() + " TYPE: " + getType();
     }
 }
