@@ -1,5 +1,8 @@
 package workhome;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author Ionut Butnaru
  * {@C:\Users\Ionut\IdeaProjects\HelloWorld\src}
@@ -14,6 +17,7 @@ public class Books {
 
     private String book;
     private int page;
+    private List<Pages> pag = new ArrayList<>(page);
 
 
     //Empty constructor.
