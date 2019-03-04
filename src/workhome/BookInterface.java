@@ -10,11 +10,12 @@ package workhome;
  * @version 1.0
  */
 public interface BookInterface {
+
     //Add specific items to 3 different lists
     void addBooks();
 
     // Remove specific items from 3 different lists.
-    void removeBooks();
+    void removeBook();
 
     //Prints all items.
     void listBooks();

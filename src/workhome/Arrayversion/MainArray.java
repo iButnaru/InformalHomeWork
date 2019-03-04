@@ -1,4 +1,8 @@
-package workhome;
+package workhome.Arrayversion;
+
+import workhome.ArtAlbums;
+import workhome.Books;
+import workhome.Novels;
 
 import java.util.Scanner;
 
@@ -9,23 +13,24 @@ import java.util.Scanner;
  * @see Books
  * @see Novels
  * @see ArtAlbums
+ * @see BookArray
  * <p>
  * Using Scanner it gives directions in which to continue
- * Option 1 - has 3 more options - to add an object of type Books/Novels/ArtAlbums to a specific list for each one.
+ * Option 1 - has 3 more options - to add an object of type Books/Novels/ArtAlbums to a  list.
  * Then it prints the new list with the added book.
- * Option 2 - has 3 more options - shows the list of the object of type Books/Novels/ArtAlbums.
+ * Option 2 shows the list of the object of type Books/Novels/ArtAlbums.
  * Deletes the name of the inserted book and it prints the new list.
  * Option 3 - It prints all the existing objects of type Books, Novels and ArtAlbums.
  * Option 0 - exits the program.
  * *
  */
-public class BooksFinal {
+public class MainArray {
 
     public static void main(String[] args) {
 
-        BooksTest b = new BooksTest();
+        BookArray b = new BookArray();
         int option;
-        b.loadBook();
+        b.loadBookss();
 
         do {
             Scanner scanner = new Scanner(System.in);
@@ -34,15 +39,18 @@ public class BooksFinal {
 
             switch (option) {
                 case 1:
-                    b.addBooks();
+                    b.addBookss();
                     break;
                 case 2:
-                    b.removeBooks();
+                    b.removeBookA();
                     break;
                 case 3:
-                    b.listBooks();
+                    b.listBookss();
                     break;
             }
         } while (option != 0);
+
+
+
     }
 }
