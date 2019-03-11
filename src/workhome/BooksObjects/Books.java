@@ -1,4 +1,7 @@
-package workhome;
+package workhome.BooksObjects;
+
+import workhome.BooksFinal;
+import workhome.Pages;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +14,6 @@ import java.util.List;
  * @see ArtAlbums
  * @see BooksFinal - main
  */
-
 
 public class Books {
 
@@ -77,8 +79,8 @@ public class Books {
      *
      * @return the representation of this book.
      */
+
     public String toString() {
         return " NAME: " + getBook() + " PAGES: " + getPage();
     }
-
 }

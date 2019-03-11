@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637c52aa-a485-44e9-b1c5-bc71444e7a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/workhome/RemoveElem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InformalHomeWork1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InformalHomeWork1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Arrayversion/BookArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Arrayversion/BookArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/ArtAlbums.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/ArtAlbums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/BooksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/BooksTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/RemoveElem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/Arrayversion/BookArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Arrayversion/BookArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/Arrayversion/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Arrayversion/MainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/ArtAlbums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/ArtAlbums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/BooksFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/BooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/Novels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Novels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/Setversion/MainSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Setversion/MainSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workhome/Setversion/SetVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/Setversion/SetVersion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,8 +26,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Novels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/ArtAlbums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Books.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,15 +78,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Books.java" />
         <option value="$PROJECT_DIR$/src/informalwork/Books.java" />
-        <option value="$PROJECT_DIR$/src/workhome/ArtAlbums.java" />
-        <option value="$PROJECT_DIR$/src/workhome/Novels.java" />
         <option value="$PROJECT_DIR$/src/workhome/myfile.txt" />
         <option value="$PROJECT_DIR$/src/workhome/Pages.java" />
         <option value="$PROJECT_DIR$/src/workhome/RemoveElem.java" />
-        <option value="$PROJECT_DIR$/src/workhome/Books.java" />
         <option value="$PROJECT_DIR$/src/workhome/Test.java" />
         <option value="$PROJECT_DIR$/src/workhome/BookInterface.java" />
-        <option value="$PROJECT_DIR$/src/workhome/BooksTest.java" />
         <option value="$PROJECT_DIR$/src/workhome/BooksFinal.java" />
         <option value="$PROJECT_DIR$/src/workhome/SetVersion.java" />
         <option value="$PROJECT_DIR$/src/workhome/Arrayversion/SetVersion.java" />
@@ -46,14 +90,27 @@
         <option value="$PROJECT_DIR$/src/workhome/Arrayversion/MainArray.java" />
         <option value="$PROJECT_DIR$/src/workhome/Setversion/MainSet.java" />
         <option value="$PROJECT_DIR$/src/workhome/Setversion/SetVersion.java" />
+        <option value="$PROJECT_DIR$/src/workhome/Novels.java" />
+        <option value="$PROJECT_DIR$/src/workhome/MapVersion/BooksIsbn.java" />
+        <option value="$PROJECT_DIR$/src/workhome/BooksIsbn.java" />
         <option value="$PROJECT_DIR$/src/workhome/Arrayversion/BookArray.java" />
+        <option value="$PROJECT_DIR$/src/NameExeption.java" />
+        <option value="$PROJECT_DIR$/src/workhome/GenericArraylist.java" />
+        <option value="$PROJECT_DIR$/src/ThrowMyExceptions.java" />
+        <option value="$PROJECT_DIR$/src/workhome/ArtAlbums.java" />
+        <option value="$PROJECT_DIR$/src/workhome/Books.java" />
+        <option value="$PROJECT_DIR$/src/workhome/NameExeption.java" />
+        <option value="$PROJECT_DIR$/src/workhome/BooksTest.java" />
+        <option value="$PROJECT_DIR$/src/workhome/ArrayApacheVersion/BookArrayApache.java" />
+        <option value="$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Novels.java" />
+        <option value="$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/ArtAlbums.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -61,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -86,30 +142,28 @@
               <item name="InformalHomeWork1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="workhome" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrayversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InformalHomeWork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformalHomeWork1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="workhome" type="462c0819:PsiDirectoryNode" />
               <item name="Setversion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551727707527" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552332803544" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bin/commons-lang3-3.8.1" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="RemoveElem" />
-      <command value="BooksFinal" />
       <command value="MainArray" />
+      <command value="BooksFinal" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -124,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainSet">
+  <component name="RunManager" selected="Application.BooksFinal">
     <configuration name="BooksFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="workhome.BooksFinal" />
       <module name="InformalHomeWork1" />
@@ -189,16 +243,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.BooksFinal" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.RemoveElem" />
       <item itemvalue="Application.MainArray" />
       <item itemvalue="Application.MainSet" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RemoveElem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainSet" />
-        <item itemvalue="Application.MainArray" />
         <item itemvalue="Application.BooksFinal" />
+        <item itemvalue="Application.MainArray" />
+        <item itemvalue="Application.MainSet" />
         <item itemvalue="Application.RemoveElem" />
       </list>
     </recent_temporary>
@@ -229,8 +283,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.11744966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.11744966" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -306,58 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="861" selection-start-line="861" selection-end-line="861" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/ArtAlbums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/Novels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/workhome/myfile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -373,44 +376,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workhome/Arrayversion/SetVersion.java" />
-    <entry file="file://$PROJECT_DIR$/src/workhome/Books.java">
+    <entry file="file://$PROJECT_DIR$/src/workhome/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/workhome/RemoveElem.java" />
+    <entry file="file://$PROJECT_DIR$/src/workhome/BooksIsbn.java" />
+    <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/MainSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/Arrayversion/MainArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/Arrayversion/BookArrayInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/BooksFinal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/BooksTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3460">
-          <caret line="173" column="40" selection-start-line="173" selection-start-column="40" selection-end-line="173" selection-end-column="40" />
+        <state relative-caret-position="329">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -419,47 +391,219 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/SetVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1940">
-          <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+        <state relative-caret-position="1603">
+          <caret line="183" column="9" lean-forward="true" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/MainSet.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="509">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="863" selection-start-line="863" selection-end-line="863" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThrowMyExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/workhome/GenericArraylist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="13" selection-end-column="50" />
+        <state relative-caret-position="526">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/NameExeption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/BooksFinal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/Arrayversion/BookArrayInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/Arrayversion/MainArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/BooksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/ArrayApacheVersion/BookArrayApache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workhome/Arrayversion/BookArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="500">
+          <caret line="70" column="46" selection-end-line="228" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workhome/RemoveElem.java">
+    <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Novels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="148">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/ArtAlbums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workhome/Setversion/BooksObjects/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-lang3-3.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>InformalHomeWork1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,4 +1,6 @@
-package workhome;
+package workhome.BooksObjects;
+
+import workhome.BooksFinal;
 
 /**
  * @author Ionut Butnaru
@@ -23,6 +25,8 @@ public class ArtAlbums extends Books {
      * @param page         The number of pages of this art album.
      * @param paperQuality The quality of this art album's paper.
      */
+
+
     public ArtAlbums(String book, int page, String paperQuality) {
         super(book, page);
         this.paperQuality = paperQuality;
@@ -33,7 +37,7 @@ public class ArtAlbums extends Books {
      *
      * @return art album's name.
      */
-    public String getNovel() {
+    public String getArtAlbum() {
         return super.getBook();
     }
 

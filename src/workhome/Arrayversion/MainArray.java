@@ -1,8 +1,8 @@
 package workhome.Arrayversion;
 
-import workhome.ArtAlbums;
-import workhome.Books;
-import workhome.Novels;
+import workhome.BooksObjects.ArtAlbums;
+import workhome.BooksObjects.Books;
+import workhome.BooksObjects.Novels;
 
 import java.util.Scanner;
 

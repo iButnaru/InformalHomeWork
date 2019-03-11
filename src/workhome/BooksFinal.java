@@ -1,5 +1,9 @@
 package workhome;
 
+import workhome.BooksObjects.ArtAlbums;
+import workhome.BooksObjects.Books;
+import workhome.BooksObjects.Novels;
+
 import java.util.Scanner;
 
 /**

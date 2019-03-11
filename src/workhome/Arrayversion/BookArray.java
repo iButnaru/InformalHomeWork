@@ -5,9 +5,9 @@ package workhome.Arrayversion;
  * @see workhome.Arrayversion.MainArray
  */
 
-import workhome.ArtAlbums;
-import workhome.Books;
-import workhome.Novels;
+import workhome.BooksObjects.ArtAlbums;
+import workhome.BooksObjects.Books;
+import workhome.BooksObjects.Novels;
 
 import java.io.File;
 import java.util.Scanner;

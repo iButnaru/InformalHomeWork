@@ -1,4 +1,6 @@
-package workhome;
+package workhome.BooksObjects;
+
+import workhome.BooksFinal;
 
 /**
  * @author Ionut Butnaru

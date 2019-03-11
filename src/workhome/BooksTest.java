@@ -1,21 +1,26 @@
 package workhome;
+
+import workhome.BooksObjects.ArtAlbums;
+import workhome.BooksObjects.Books;
+import workhome.BooksObjects.Novels;
+
+import java.io.File;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+
 /**
  * @author Ionut Butnaru
  * version 1.0
  * @see workhome.BooksFinal
  */
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Scanner;
 
 public class BooksTest implements BookInterface {
 
-    //while (!direction.equals("5"));
-    private List<Books> catalogue1 = new ArrayList<>();
-    private List<Books> catalogue2 = new ArrayList<>();
-    private List<Books> catalogue3 = new ArrayList<>();
+    private Books[] catalogue1 = new Books[0];
+    private GenericArraylist<Books> catalogue2 = new GenericArraylist<>();
+    private HashSet<Object> catalogue3 = new HashSet<>();
+
 
     /**
      * Option 1 - adds an item of type Books to a list
@@ -38,7 +43,6 @@ public class BooksTest implements BookInterface {
                 addArtAlbum();
                 break;
         }
-
     }
 
     /**
@@ -66,9 +70,6 @@ public class BooksTest implements BookInterface {
                 removeArtAlbum();
                 break;
         }
-
-
-
     }
 
     /**
@@ -78,14 +79,32 @@ public class BooksTest implements BookInterface {
         for (Books b : catalogue1) {
             System.out.println(b);
         }
-        for (Books n : catalogue2) {
+        for (Books n : catalogue2.getList()) {
             System.out.println(n);
         }
-        for (Books a : catalogue3) {
+        for (Object a : catalogue3) {
             System.out.println(a);
         }
     }
-    //Add an item of type Books to a list.
+
+    /**
+     * Checks if parameters are equal and throw NameException.
+     * @param book object of type Books.
+     * @param name String parameter.
+     * @throws NameExeption if the given parameters are equal.
+     */
+
+    private void checkBook(Books book, String name) throws NameExeption {
+        for (Books item : catalogue1) {
+            if (item.getBook().equals(name)) {
+                throw new NameExeption("The item is already in the catalogue.");
+            }
+        }
+    }
+
+    /**
+     * Add an item of type Books to a list.
+     */
 
     public void addBook() {
         Scanner sc = new Scanner(System.in);
@@ -94,16 +113,45 @@ public class BooksTest implements BookInterface {
         System.out.println("Please enter the number of pages: ");
         int noPages = sc.nextInt();
         Books enteredBook = new Books(bookInput, noPages);
-        catalogue1.add(enteredBook);
-        System.out.println("Please see below the new list:");
-        for (Books bk : catalogue1) {
-            System.out.println(bk);
+        try {
+            for (Books item : catalogue1) {
+                checkBook(item, enteredBook.getBook());
+            }
+            int currentSize = catalogue1.length;
+            int newSize = currentSize + 1;
+            Books[] tempcatalogue = new Books[newSize];
+            for (int j = 0; j < currentSize; j++) {
+                tempcatalogue[j] = catalogue1[j];
+            }
+            tempcatalogue[newSize - 1] = enteredBook;
+            catalogue1 = tempcatalogue;
+            System.out.println("Please see below the new list:");
+            for (Books bk : catalogue1) {
+                System.out.println(bk);
+            }
+        } catch (NameExeption e) {
+            System.out.println(e.getMessage());
         }
-
-
     }
 
-    //Add an item of type Novels to a list.
+    /**
+     * Checks if parameters are equal and throw NameException.
+     * @param book object of type Books.
+     * @param name String parameter.
+     * @throws NameExeption if the given parameters are equal.
+     */
+
+    private void checkNovel(Books book, String name) throws NameExeption {
+        for (Books item : catalogue2.getList()) {
+            if (item.getBook().equals(name)) {
+                throw new NameExeption("The item is already in the catalogue.");
+            }
+        }
+    }
+
+    /**
+     * Add an item of type Novels to a list.
+     */
     public void addNovel() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the name of the novel: ");
@@ -113,32 +161,49 @@ public class BooksTest implements BookInterface {
         System.out.println("Please enter the type of the novel: ");
         String novelType = scan.next();
         Books enteredNovel = new Novels(novelInput, novelPages, novelType);
-        catalogue2.add(enteredNovel);
-        System.out.println("Please see below the new list: ");
-        for (Books nov : catalogue2) {
-            System.out.println(nov);
+        try {
+            for (Books item : catalogue2.getList()) {
+                checkNovel(item, novelInput);
+            }
+            catalogue2.add(enteredNovel);
+        } catch (NameExeption e) {
+            System.out.println(e.getMessage());
         }
 
+        System.out.println("Please see below the new list: ");
+        for (Books nov : catalogue2.getList()) {
+            System.out.println(nov);
+        }
     }
-    //Add an item of type ArtAlbums to a list.
+
+    /**
+     * Add an item of type ArtAlbums to a list.
+     */
 
     public void addArtAlbum() {
-        Scanner scan = new Scanner(System.in);
+        Scanner scann = new Scanner(System.in);
         System.out.println("Please enter the name of the art album: ");
-        String name = scan.nextLine();
+        String name = scann.nextLine();
         System.out.println("Please enter the number of pages: ");
-        int pages = scan.nextInt();
-        System.out.println("Please enter the paper quality: ");
-        String paperQuality = scan.next();
-        Books artAlbums = new ArtAlbums(name, pages, paperQuality);
-        catalogue3.add(artAlbums);
-        System.out.println("Please see below the new list: ");
-        for (Books nov : catalogue3) {
-            System.out.println(nov);
-        }
+        try {
+            int pages = scann.nextInt();
+            System.out.println("Please enter the paper quality: ");
+            String paperQuality = scann.next();
+            Books artAlbums = new ArtAlbums(name, pages, paperQuality);
+                catalogue3.add(artAlbums);
+                System.out.println("Please see below the new list:");
 
+                for (Object art : catalogue3) {
+                    System.out.println(art);
+            }
+        } catch (Exception e) {
+            System.out.println("You must enter a digit as page number.");
+        }
     }
-    //Remove an item of type Books from a list.
+
+    /**
+     * Remove an item of type Books from a list.
+     */
 
     public void removeBook() {
 
@@ -146,60 +211,67 @@ public class BooksTest implements BookInterface {
         for (Books bk : catalogue1) {
             System.out.println(bk);
         }
-        Iterator<Books> it1 = catalogue1.iterator();
         Scanner sc = new Scanner(System.in);
         System.out.println("Please write the name of the book you want to delete: ");
         String bookDelete = sc.nextLine();
-        while (it1.hasNext()) {
-            Books book = it1.next();
-            if (book.getBook().equals(bookDelete)) {
-                it1.remove();
+        int currentSize = catalogue1.length;
+        int newSize = currentSize - 1;
+        Books[] tempcatalogue = new Books[newSize];
+        int i = 0;
+        for (int j = 0; j < currentSize; j++) {
+            if (!catalogue1[j].getBook().equals(bookDelete)) {
+                tempcatalogue[i] = catalogue1[j];
+                i++;
             }
         }
-
+        catalogue1 = tempcatalogue;
         System.out.println("The remaining books are: ");
-        for (Books bk : catalogue1) {
+        for (Books bk : tempcatalogue) {
             System.out.println(bk);
-
         }
     }
 
-    //Remove an item of type Novels from a list.
+    /**
+     * Remove an item of type Novels from a list.
+     */
     public void removeNovel() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please see below the list:");
-        for (Books nov : catalogue2) {
+        for (Books nov : catalogue2.getList()) {
             System.out.println(nov);
         }
-        Iterator<Books> it2 = catalogue2.iterator();
+        Iterator<Books> it2 = catalogue2.getList().iterator();
         System.out.println("Please write the name of the novel you want to delete: ");
+        for (Books nov : catalogue2.getList()) {
+        }
         String novelDelete = sc.nextLine();
         while (it2.hasNext()) {
             Books novel = it2.next();
             if (novel.getBook().equals(novelDelete)) {
                 it2.remove();
             }
-
         }
-
         System.out.println("The remaining novels are: ");
-        for (Books nov : catalogue2) {
+        for (Books nov : catalogue2.getList()) {
             System.out.println(nov);
         }
     }
-    //Remove an item of type ArtAlbums from a list.
+
+    /**
+     * Remove an item of type ArtAlbums from a list.
+     */
 
     public void removeArtAlbum() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please see below the list:");
-        for (Books art : catalogue3) {
+        for (Object art : catalogue3) {
             System.out.println(art);
         }
-        Iterator<Books> it3 = catalogue3.iterator();
+        Iterator<Object> it3 = catalogue3.iterator();
         System.out.println("Please write the name of the art album you want to delete: ");
         String artDelete = sc.nextLine();
         while (it3.hasNext()) {
-            Books art = it3.next();
+            Books art = (Books) it3.next();
             {
                 if (art.getBook().equals(artDelete)) {
                     it3.remove();
@@ -208,7 +280,7 @@ public class BooksTest implements BookInterface {
         }
 
         System.out.println("The remaining art albums are: ");
-        for (Books art : catalogue3) {
+        for (Object art : catalogue3) {
             System.out.println(art);
         }
     }
@@ -230,7 +302,14 @@ public class BooksTest implements BookInterface {
                 if (astring[0].equals("BOOK")) {
                     b.setBook(astring[1]);
                     b.setPage(Integer.parseInt(astring[2]));
-                    catalogue1.add(b);
+                    int currentSize = catalogue1.length;
+                    int newSize = currentSize + 1;
+                    Books[] tempcatalogue = new Books[newSize];
+                    for (int j = 0; j < currentSize; j++) {
+                        tempcatalogue[j] = catalogue1[j];
+                    }
+                    tempcatalogue[newSize - 1] = b;
+                    catalogue1 = tempcatalogue;
                 } else if (astring[0].equals("NOVEL")) {
                     n.setBook(astring[1]);
                     n.setPage(Integer.parseInt(astring[2]));
@@ -248,6 +327,4 @@ public class BooksTest implements BookInterface {
             System.out.println("An error occurred: " + e);
         }
     }
-
-
 }
