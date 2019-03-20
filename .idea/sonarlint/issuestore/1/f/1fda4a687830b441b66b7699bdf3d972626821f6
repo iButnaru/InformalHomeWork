@@ -1,0 +1,31 @@
+
+Bsquid:S2629X"$Invoke method(s) only conditionally.(ËÖŸÖ8º±œ¸™-
+Jsquid:S1172š"+Remove this unused method parameter "book".(—Ş8À¸™-
+Qsquid:S1199½"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¨¶¸™-
+[
+squid:S106R"9Replace this use of System.out or System.err by a logger.(»Ì·óüÿÿÿÿ8ì¸ì³™-
+[
+squid:S106V"9Replace this use of System.out or System.err by a logger.(Õ‹©‚ùÿÿÿÿ8áí³™-
+Ysquid:S1141¯"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8À¸™-
+Gsquid:S2629T"$Invoke method(s) only conditionally.(İ„øÿÿÿÿ8À·™¸™-
+Csquid:S2629ê"$Invoke method(s) only conditionally.(Ù¤¯×8·—§¸™-
+Isquid:S1172g"+Remove this unused method parameter "book".(À­‹8À¸™-
+Hsquid:S2629š"$Invoke method(s) only conditionally.(ëã¨£ùÿÿÿÿ8·´²¸™-
+isquid:S2095Ñ"EUse try-with-resources or close this "Scanner" in a "finally" clause.(Ë»ó¹úÿÿÿÿ8É–¹¸™-
+Csquid:S2629Æ"$Invoke method(s) only conditionally.(Ù¤¯×8‹Í¹¸™-
+Hsquid:S2629ª"$Invoke method(s) only conditionally.(ëã¨£ùÿÿÿÿ8°ˆµ¸™-
+W
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(®ÅŸÀ8À¸™-
+Hsquid:S2629Ÿ"$Invoke method(s) only conditionally.(ëã¨£ùÿÿÿÿ8Œ ´¸™-
+Osquid:S1172Ê"+Remove this unused method parameter "book".(ÕÎ‰Ğüÿÿÿÿ8À¸™-
+Csquid:S2629"$Invoke method(s) only conditionally.(ÆçÜ8ßÃ®¸™-
+usquid:S2159¾"VRemove this call to "equals"; comparisons between unrelated types always return false.(à‚ñ¾8¨¶¸™-
+Csquid:S2629ı"$Invoke method(s) only conditionally.(ÆçÜ8üÜ©¸™-
+Bsquid:S2629\"$Invoke method(s) only conditionally.(ÄËá8Ë—¸™-
+Csquid:S2629¶"$Invoke method(s) only conditionally.(Ù¤¯×8×¯¶¸™-
+Ysquid:S1141â"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8À¸™-
+Xsquid:S1141{"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8À¸™-
+[
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(ÊŠşùşÿÿÿÿ8Ò°î³™-
+W
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(Ì´òÈ8À¸™-

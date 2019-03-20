@@ -21,11 +21,10 @@ public class ArtAlbums extends Books {
     /**
      * This constructs and art album with specified name, number of pages and quality of paper.
      *
-     * @param book         The name of this art album.
-     * @param page         The number of pages of this art album.
+     * @param book The name of this art album.
+     * @param page The number of pages of this art album.
      * @param paperQuality The quality of this art album's paper.
      */
-
 
     public ArtAlbums(String book, int page, String paperQuality) {
         super(book, page);
@@ -34,7 +33,6 @@ public class ArtAlbums extends Books {
 
     /**
      * Gets the name of this art album.
-     *
      * @return art album's name.
      */
     public String getArtAlbum() {
@@ -43,7 +41,6 @@ public class ArtAlbums extends Books {
 
     /**
      * Gets the quality of this art album's paper.
-     *
      * @return art album's paper quality.
      */
 
@@ -53,7 +50,6 @@ public class ArtAlbums extends Books {
 
     /**
      * Sets the quality of this art album's paper.
-     *
      * @param paperQuality paper's quality of this album
      */
 
@@ -63,7 +59,6 @@ public class ArtAlbums extends Books {
 
     /**
      * toString method
-     *
      * @return representation of this art album.
      */
     public String toString() {

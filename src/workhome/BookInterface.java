@@ -11,15 +11,23 @@ package workhome;
  */
 public interface BookInterface {
 
-    //Add specific items to 3 different lists
+    /**
+     * Add specific items to a catalogue.
+     */
     void addBooks();
 
-    // Remove specific items from 3 different lists.
+    /**
+     * Removes specific items from a catalogue.
+     */
     void removeBook();
 
-    //Prints all items.
+    /**
+     * Prints all items.
+     */
     void listBooks();
 
-    //Loads item from a file and creates new objects
+    /**
+     * Loads item from a file and creates new objects
+     */
     void loadBook();
 }

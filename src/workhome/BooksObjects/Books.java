@@ -40,7 +40,6 @@ public class Books {
 
     /**
      * Gets the name of this book.
-     *
      * @return this book's name.
      */
     public String getBook() {
@@ -49,7 +48,6 @@ public class Books {
 
     /**
      * Sets the name of this book.
-     *
      * @param book the name of this book.
      */
     public void setBook(String book) {
@@ -58,7 +56,6 @@ public class Books {
 
     /**
      * Gets the number of pages of this book.
-     *
      * @return the book's number of pages.
      */
     public int getPage() {
@@ -67,7 +64,6 @@ public class Books {
 
     /**
      * Sets the number of pages of this book.
-     *
      * @param page the number of pages.
      */
     public void setPage(int page) {
@@ -76,7 +72,6 @@ public class Books {
 
     /**
      * toString method.
-     *
      * @return the representation of this book.
      */
 

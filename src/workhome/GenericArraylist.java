@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @author Ionut Butnaru
  * @version 1.0
- * @see BooksTest
+ * @see BooksCatalogues
  * Generic class used to invoke T type attribute.
  * @param <T> type of the variable.
  */

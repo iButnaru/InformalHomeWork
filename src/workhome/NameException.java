@@ -3,14 +3,14 @@ package workhome;
 /**
  * @author Ionut Butnaru
  * @version 1.0
- * @see BooksTest
+ * @see BooksCatalogues
  * Custom exception used to stop entering a duplicate item in a list.
  */
 
-public class NameExeption extends Exception {
+public class NameException extends Exception {
 
 
-    public NameExeption(String message){
+    public NameException(String message){
         super(message);
     }
 
