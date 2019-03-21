@@ -2,6 +2,5 @@
 *.log
 *.jar
 *.war
-*.idea
 /out/
 /target/
