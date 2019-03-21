@@ -1,6 +1,0 @@
-*.class
-*.log
-*.jar
-*.war
-/out/
-/target/
