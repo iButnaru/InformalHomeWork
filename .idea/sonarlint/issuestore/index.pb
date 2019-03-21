@@ -21,3 +21,7 @@ Q
 !src/workhome/BooksCatalogues.java,1\f\1fda4a687830b441b66b7699bdf3d972626821f6
 X
 (src/workhome/Arrayversion/BookArray.java,2\3\2342c062a615299cb0bc4bcf4f41ee21c2d214d9
+G
+src/workhome/Pages.java,7\8\7817868768236f1249ed2966b8cc3e245eec91f0
+O
+src/workhome/BookInterface.java,b\2\b2c43a770710a7bffb34b839f4de38365c94d81e

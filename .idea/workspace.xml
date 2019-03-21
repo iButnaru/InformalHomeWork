@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637c52aa-a485-44e9-b1c5-bc71444e7a5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fda4a687830b441b66b7699bdf3d972626821f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fda4a687830b441b66b7699bdf3d972626821f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/551f41c102a0d03f07b1fb4fe74a550eb26656d0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/551f41c102a0d03f07b1fb4fe74a550eb26656d0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c230269be63c18b86877874e07d57990db975fac" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c230269be63c18b86877874e07d57990db975fac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InformalHomeWork1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InformalHomeWork1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Arrayversion/BookArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Arrayversion/BookArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/BooksFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/BooksFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/BooksTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/GenericArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/GenericArraylist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/NameExeption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Setversion/BooksObjects/ArtAlbums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Setversion/BooksObjects/Books.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Setversion/BooksObjects/Novels.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Setversion/SetVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InformalHomeWork1/workhome/Setversion/SetVersion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/BookInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BookInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/BooksFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/BooksObjects/ArtAlbums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksObjects/ArtAlbums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/BooksObjects/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksObjects/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/BooksObjects/Novels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksObjects/Novels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/BooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/BooksCatalogues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/GenericArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/GenericArraylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/workhome/NameExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workhome/NameException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +19,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,9 +85,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +124,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,7 +131,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553110671894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191718318" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -225,8 +211,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.BooksFinal" />
-      <item itemvalue="Application.MainArray" />
       <item itemvalue="Application.CatalogueTest" />
+      <item itemvalue="Application.MainArray" />
       <item itemvalue="JUnit.All in InformalHomeWork1" />
       <item itemvalue="JUnit.CatalogueTest" />
     </list>
@@ -299,7 +285,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.22080536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.22416107" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.11744966" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
